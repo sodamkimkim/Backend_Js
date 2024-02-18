@@ -1,7 +1,12 @@
 // const express = require('express') // 옛날방식 (common js 방식)
 import express from 'express' // 요즘방식 (module 방식)
 import { createTokenOfPhone } from './phone.js'
+// import express from 'express'
+// import exportDefault, {creteTokenOfPhone} from './phone.js'// export default 와 export 함께 쓰기
 
+//import * as ttt from './phone.js'
+//ttt.tokenCheck
+//ttt.getToken
 const app = express()
 app.use(express.json()) // json데이터 해석 가능
 app.get('/boards', function (req, res) {
