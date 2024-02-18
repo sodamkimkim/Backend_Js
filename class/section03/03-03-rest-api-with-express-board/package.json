@@ -1,11 +1,11 @@
 {
-    "name": "03-02-rest-api-with-express-nodemon",
+    "name": "03-03-rest-api-with-express-board",
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
     "type": "module",
     "scripts": {
-        "nodemon": "nodemon index.js"
+        "start:dev": "nodemon index.js"
     },
     "dependencies": {
         "express": "^4.18.2",
